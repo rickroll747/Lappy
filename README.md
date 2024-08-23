@@ -28,3 +28,6 @@ This VBS worm is provided for educational purposes only. Misuse of this worm cou
 Making It Extremely Difficult To Remove.
 
 # Hacked By The Chinese!
+
+# Note: 
+If You Do Not Know What This VBS Script Is Nor Don't Know What It Is Then Do Not Run It On Your Main PC If You Do Not Know What Youre Doing.
