@@ -21,3 +21,5 @@ Spread through network shares: The worm copies itself to network shares, spreadi
 Autostart: The worm adds a registry key to ensure it runs automatically during login.
 Backup copy: The worm creates a backup copy of itself in the user's home directory, ensuring persistence in case the original worm file is deleted.
 Making It Extremely Difficult To Remove.
+
+# Hacked By The Chinese!
