@@ -2,7 +2,7 @@
 A Very Effective And Dangerous Email/Net Worm In VBScript.
 
 # Lappy.vbs/Laper.vbs
-A simple VBS worm that spreads via HTML files, other files, email contacts, network shares and creates a backup copy of itself.
+A VBS worm that spreads via HTML files, other files, email contacts, network shares and creates a backup copy of itself.
 High-Level Functionality
 Infects HTML files in the current directory, adding a script tag that references the VBS worm.
 Infects other files in the current directory by copying the worm with different file extensions.
