@@ -1,5 +1,5 @@
-# Laper
-An Effective Email/Net Worm In VBScript.
+# Laper/Lappy
+A Very Effective And Dangerous Email/Net Worm In VBScript.
 
 # Lappy.vbs/Laper.vbs
 A simple VBS worm that spreads via HTML files, other files, email contacts, network shares and creates a backup copy of itself.
