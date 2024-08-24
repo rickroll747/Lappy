@@ -8,7 +8,7 @@ High-Level Functionality
 # What It Does
 1: Infect HTML files: The worm searches for HTML files in the same folder and infects them by adding a script tag that references the worm.
 
-2: Infect other files: The worm copies itself with various file extensions, Mp4, Mp3, Jpg And Png infecting other files when they are opened or executed.
+2: Infect other files: The worm copies itself to various file extensions, Mp4, Mp3, Jpg And Png infecting other files.
 
 3: Send emails: The worm uses Microsoft Outlook to send itself as an attachment to email contacts in the user's address book.
 
