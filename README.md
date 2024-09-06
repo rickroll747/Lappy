@@ -19,8 +19,11 @@ High-Level Functionality
 6: Backup copy: The worm creates a backup copy of itself in the user's home directory, ensuring persistence in case the original worm file is deleted.
 Making It Extremely Difficult To Remove.
 
+# 9/12/2024
+LAPPY.B COMING SOON IN C++ WITH BETTER FEATURES!!!
+
 # Disclaimer
-This VBS worm is provided for educational purposes only. Misuse of this worm could lead to legal consequences and may harm others. The author is not responsible for any misuse or damage caused by this worm.
+This worm is provided for educational purposes only. Misuse of this worm could lead to legal consequences and may harm others. The author is not responsible for any misuse or damage caused by this worm.
 
 # Hacked By The Kurds!
 
