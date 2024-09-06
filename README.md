@@ -1,7 +1,7 @@
-# Laper/Lappy
+# Lappy
 A Very Effective And Dangerous Email/Net Worm In VBScript.
 
-# Lappy.vbs/Laper.vbs
+# Laper.vbs
 A VBS worm that spreads via HTML files, other files, email contacts, network shares and creates a backup copy of itself.
 High-Level Functionality
 
@@ -22,7 +22,7 @@ Making It Extremely Difficult To Remove.
 # Disclaimer
 This VBS worm is provided for educational purposes only. Misuse of this worm could lead to legal consequences and may harm others. The author is not responsible for any misuse or damage caused by this worm.
 
-# Hacked By The Chinese!
+# Hacked By The Kurds!
 
 # Note: 
-If You Do Not Know What This VBS Script Is Nor Don't Know What It Does Then Do Not Run It On Your Main PC If You Do Not Know What Youre Doing.
+If You Do Not Know What This Program Is Nor Don't Know What It Does Then Do Not Run It On Your Main PC If You Do Not Know What Youre Doing.
