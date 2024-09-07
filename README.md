@@ -25,7 +25,7 @@ LAPPY.B COMING SOON IN C++ WITH BETTER FEATURES!!!
 # Disclaimer
 This worm is provided for educational purposes only. Misuse of this worm could lead to legal consequences and may harm others. The author is not responsible for any misuse or damage caused by this worm.
 
-# Hacked By The Kurds!
+# Hacked By Chinese!
 
 # Note: 
 If You Do Not Know What This Program Is Nor Don't Know What It Does Then Do Not Run It On Your Main PC If You Do Not Know What Youre Doing.
