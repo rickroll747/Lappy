@@ -28,4 +28,4 @@ This worm is provided for educational purposes only. Misuse of this worm could l
 # Hacked By Chinese!
 
 # Note: 
-If You Do Not Know What This Program Is Nor Don't Know What It Does Then Do Not Run It On Your Main PC If You Do Not Know What Youre Doing.
+If You Do Not Know What This Program Is Nor Don't Know What It Does Then Do Not Run It On Your Main PC.
