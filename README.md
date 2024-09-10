@@ -12,7 +12,7 @@ High-Level Functionality
 
 3: Send emails: The worm uses Microsoft Outlook to send itself as an attachment to email contacts in the user's address book.
 
-4: Spread through network shares: The worm copies itself to network shares, spreading to other computers on the same network.
+4: Spread through network shares: The worm copies itself to the users network and network shares, spreading to other computers on the same network.
 
 5: Autostart: The worm adds a registry key to ensure it runs automatically during login.
 
