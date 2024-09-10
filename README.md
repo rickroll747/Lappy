@@ -23,7 +23,7 @@ Making It Extremely Difficult To Remove.
 LAPPY.B COMING SOON IN C++ WITH BETTER FEATURES!!! LAPPY.C COMING SOON IN BATCH CONVERTED TO EXE WITH WAYYYY BETTER FEATURES!!!!
 
 # Disclaimer
-This worm is provided for educational purposes only. Misuse of this worm could lead to legal consequences and may harm others. The author is not responsible for any misuse or damage caused by this worm.
+The author/Me is not responsible for any misuse or damage caused by this worm.
 
 # Hacked By Chinese!
 
